@@ -1,0 +1,92 @@
+.upload-box {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    height: 300px;
+    position: relative;
+    width: 100%; 
+    max-width: 300px; 
+    margin: 0 auto; 
+  }
+  .container{
+    border: 2px dashed #ccc;
+    width: 96% !important;
+    max-width: 100% !important;
+    margin: 16px 0px;
+  }
+  
+  .file-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .file-details {
+    display: flex;
+    align-items: center;
+  }
+  .file-content{
+    width:80%;
+    margin-left: 3px;
+  }
+  .file_imge{
+    font-size: 2.5rem;
+    margin-top: -16px;
+  }
+  .upload-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  .delete-img{
+    width: 20px;
+    height: 20px;
+  }
+  .upload-box p {
+    margin: 0;
+  }
+  
+  .upload-box span {
+    color: purple;
+  }
+  .mr-b0{
+    margin-bottom: 0px;
+  }
+  .file-name{
+    font-size: 13px;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mr-b5{
+    margin-bottom: 5px;
+  }
+  @media (max-width: 576px) {
+    .upload-box {
+      max-width: 100%; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .upload-box {
+      max-width: 100%; 
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .upload-box {
+      max-width: 80%; 
+    }
+  }
+
+  
+  
